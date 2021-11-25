@@ -1,0 +1,194 @@
+/*
+file: style.css
+author: Darius Taylor
+
+This is the css file for the pilot page for the bunch construction site
+*/
+
+/* Body Styles */
+
+body {
+    margin: 0;
+    background-color: #EDEDED;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #444444;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+}
+
+/* Header Styles */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.links a {
+    color: #EDEDED;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+.header {
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.logo img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+/* Heading Styles */
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    text-align: left;
+}
+
+h4 {
+    color: #EDEDED;
+    text-align: right;
+}
+
+/* Top Div Styles */
+
+.topdiv {
+    background-color: #DA0037;
+    display: flex;
+    padding-bottom: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.topleft p {
+    text-align: left;
+    color: #EDEDED;
+    padding-bottom: 2rem;
+}
+
+/* Middle Div Styles */
+
+.middlediv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.gallerybox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 5rem;
+}
+
+.middlediv h2 { 
+    text-align: center;
+    font-size: 32pt;
+    color: #1f2937;
+    padding-bottom: 100px;
+}
+
+/* Quoted Div Styles */
+
+.quotediv {
+    display: flex;
+    text-align: center;
+    background-color: #444444;
+    padding: 100px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 36px;
+    color: #EDEDED;
+}
+
+/* Bottom Div Styles */
+
+.bottomdiv {
+    margin: 10rem;
+    background-color: #DA0037;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EDEDED;
+    font-size: 20pt;
+}
+
+.box4 p {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* Footer Div Styles */
+
+footer {
+    text-align: center;
+    background-color: #444444;
+    padding: 2rem;
+}
+
+a footer {
+    color: #1f2937;
+}
+
+/* Gallery Image Styles */
+
+.gallerybox img {
+    width: 250px;
+    height: 250px;
+}
+
